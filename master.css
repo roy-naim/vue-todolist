@@ -13,6 +13,7 @@
 }
 .container {
   color: #fff;
+  font-family: 'Rubik', sans-serif;
   background-image: linear-gradient(to right, darkblue , blue, darkblue);
   min-width: 300px;
   max-width: 800px;
