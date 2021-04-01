@@ -39,11 +39,18 @@ h1 {
 ul.todos li  {
   padding: 10px 0;
 }
+
+ul.todos li.currentEdit {
+  color: #2174f9;
+  font-weight: bolder;
+}
+
 ul.todos li:after {
   content: '';
   display: table;
   clear: both;
 }
+
 ul.todos li .controls{
   padding: 0 5px;
   float: right;
@@ -53,6 +60,9 @@ ul.todos li .controls{
   filter: drop-shadow(2px 1px 1px #000);
 }
 
+.title.crossedout {
+  text-decoration: line-through;
+}
 input.write {
   width: 100%;
   padding: 5px;
